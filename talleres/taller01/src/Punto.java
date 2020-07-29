@@ -25,7 +25,7 @@ class Punto {
     return Math.atan(y / x);
   }
 
-  public double distanciaEuclidiana(Punto otro) {
+  public double distancia(Punto otro) {
     catetoX = Math.abs(otro.getX - this.x);
     catetoY = Math.abs(otro.getY - this.y);
 
