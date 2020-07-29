@@ -31,8 +31,8 @@ class Fecha {
   }
 
   public String comparar(Fecha otra) {
-    int fechaA = this.dia + this.mes * 100 + this.ano * 10000
-    int fechaB = otra.dia + otra.mes * 100 + otra.ano * 10000
+    int fechaA = this.dia + this.mes * 100 + this.ano * 10000;
+    int fechaB = otra.dia + otra.mes * 100 + otra.ano * 10000;
 
     if (fechaA == fechaB) {
       return "igual";
